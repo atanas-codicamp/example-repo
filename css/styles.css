@@ -1,0 +1,28 @@
+.container {
+  background: red;
+  border: 4px solid #000;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box {
+  float: left;
+  padding: 0px 84px;
+  background-color: #ccc;
+  border: 1px solid #000;
+  margin: 10px;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 198px;
+  text-align: center;
+}
+
+.float {
+  float: left;
+  margin: 20px;
+  background: #ccc;
+}
